@@ -9,3 +9,5 @@ Healthbot Northstar integration
 4. If the Failure Analysis passes, it then requests a link maintenance event in Northstar
  
 5. This triggers Northstar to automatically reroute the LSPs to avoid that link
+
+Please refer to Wifi on how to set it up.
