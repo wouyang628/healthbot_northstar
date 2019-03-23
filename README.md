@@ -1,4 +1,4 @@
-# Self Healing on the WAN with Healthbot and Northstar Controller
+#Netowrk Self Healing with Healthbot and Northstar Controller
 Healthbot Northstar integration
 1. Healthbot monitors link latency via Streaming Telemetry
  
