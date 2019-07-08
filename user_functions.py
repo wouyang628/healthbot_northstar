@@ -16,11 +16,11 @@ token_url = 'https://:8443/oauth2/token'
 maintenance_url = url + 'maintenances'
 run_simulation_url = url + 'rpc/simulation'
 hearders_token = {'Content-Type': 'application/json'}
-user = ''
-password = ''
+user = '******'
+password = '******'
 
 def get_token():
-    r = requests.post(token_url, auth=('admin', 'Embe1mpls'), data='{"grant_type":"password","username":"","password":""}', headers=hearders_token, verify=False)
+    r = requests.post(token_url, auth=('******', '*******'), data='{"grant_type":"password","username":"******","password":"******"}', headers=hearders_token, verify=False)
     return r.json()['access_token']
 
 token = get_token()
