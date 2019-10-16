@@ -10,4 +10,4 @@ Healthbot Northstar integration
  
 5. This triggers Northstar to automatically reroute the LSPs to avoid that link
 
-Please refer to Wifi on how to set it up.
+**Please follow wiki for set up instructions.**
