@@ -22,7 +22,7 @@ def app_message_post():
         print data
         message = data['message']
         print "message " + message
-        playbook_name = data['keys']['_playbook-name']
+        playbook_name = data['keys']['_playbook_name']
         print "playbook_name " + playbook_name
         #test_name = data['keys']['test-name']
         #print "interface-name " + test_name 
